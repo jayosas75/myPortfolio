@@ -339,7 +339,7 @@ a, a:active, a:focus, a:hover,
   width: 100%;
 }
 .is-sticky .navigation-area {
-  background: rgba(0,0,0,.9); none repeat scroll 0 0;
+  background: rgba(0,0,0,.9); none: repeat scroll 0 0;
   transition: .5s;
 }
 .is-sticky .navigation-area .navbar-nav > li > a {
@@ -564,8 +564,8 @@ a, a:active, a:focus, a:hover,
 .mix-single-item img{
   width: 100%;
   height: 100%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0);
 }
 .mix-single-item .mix-caption {
   background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
@@ -586,7 +586,7 @@ a, a:active, a:focus, a:hover,
 .mix-single-item a:hover img {
   -webkit-transform: scaleX(1.1);
   transform: scaleX(1.1);
-  -webkit-filter: grayscale(0); 
+  -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
 .mix-caption.mix-caption-table {
@@ -692,7 +692,7 @@ a, a:active, a:focus, a:hover,
     Happy Client Section
 ======================== */
 #happyClient {
-  background: url(../img/happyClient.jpg) no-repeat scroll center center;
+  background: url(../img/stark.jpg) no-repeat scroll center center;
   background-attachment: fixed;
   color: #fff;
   position: relative;
@@ -1256,6 +1256,30 @@ a, a:active, a:focus, a:hover,
 }
 .social-link.social-link-widget li {
   display: inline-block;
+}
+
+.port-button {
+  width: 120px;
+  background: #262626 none repeat scroll 0 0;
+  border-radius: 3px;
+  border: 2px solid #f6c107;
+  margin-left: 10px;
+  color: #f6c107;
+}
+
+.port-title {
+  color: #f6c107;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .port-button {
+    width: 75px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .port-button {
+    width: 125px;
+  }
 }
 /*========================
             End
