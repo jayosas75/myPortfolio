@@ -470,35 +470,7 @@ a, a:active, a:focus, a:hover,
   position: relative;
   z-index: 1;
 }
-/*========================
-      Partnar Section
-======================== */
-#partner{
-  background: url(../img/partner/partner-bg.jpg) no-repeat scroll center bottom;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 1;
-}
-.parallax-bg::after {
-  background: #000 none repeat scroll 0 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  opacity: 0.8;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-#partner .section-title h2{
-  color: #fff;
-}
-.PSItem img {
-  background: #FFF none repeat scroll 0px 0px;
-  border-radius: 0px;
-  margin: 0 5px;
-  height: 75px;
-  width: 95%;
-}
+
 /*========================
     Portfolio Section
 ======================== */
@@ -717,70 +689,7 @@ a, a:active, a:focus, a:hover,
   font-size: 20px;
   text-transform: capitalize;
 }
-/*========================
-     Blog Section
-======================== */
-#blog {
-  background: #fff none repeat scroll 0 0;
-}
-.blog_box_bg {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 200px;
-}
-.blog_box_bg {
-  border-bottom: medium none;
-}
-.blog_box_bg_1 {
-  background-image: url("../img/blog/1.jpg");
-}
-.blog_box_bg_2 {
-  background-image: url("../img/blog/2.jpg");
-}
-.blog_box_bg_3 {
-  background-image: url("../img/blog/3.jpg");
-}
-.blog_meta {
-  font-size: 13px;
-}
-.blog_meta a {
-  color: #666;
-}
-.blog_meta i.fa {
-  padding-right: 5px;
-}
-.blog_meta span {
-  display: inline-block;
-  padding-right: 10px;
-}
-.blog_content h3 a{
-  color: #262626;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 10px 0;
-  display: inline-block;
-  transition: .5s;
-}
-.blog_box {
-  background: #fff none repeat scroll 0 0;
-  border: 1px solid #ddd;
-  padding: 10px 15px;
-  transition: all 0.5s ease 0s;
-}
-.blog_box {
-  border-top: none;
-}
-.blog_box:hover {
-  border-top: none !important;
-}
-.blog_btn.manbi-btn {
-  display: inline-block;
-  margin: 20px 0 10px;
-}
-.blog_btn.manbi-btn:hover {
-  color: #262626 !important;
-}
+
 /*========================
       Contact us
 ======================== */
@@ -1006,58 +915,7 @@ a, a:active, a:focus, a:hover,
 .social-link a:hover{
   color: #111111;
 }
-/*========================================================
-                      Blog Page 
-======================================================== */
-/*========================
-        Banner
-======================== */
-#blog-banner{
-  height: 500px;
-  background: url(../img/blog/headerFootball.jpg) no-repeat scroll center bottom;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 1;
-}
-#blog-banner .container {
-  position: relative;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.bb-titile {
-  color: #fff;
-  padding: 5px 0;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 36px;
-}
-.breadcrumb {
-  background: transparent none repeat scroll 0 0;
-  margin: 0;
-  font-weight: 500;
-  padding: 0;
-}
-.breadcrumb li a {
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
-  transition: all 0.5s ease 0s;
-}
-.breadcrumb li.active {
-  font-size: 20px;
-  text-transform: uppercase;
-}
-.blog_page_content .blog_box_bg{
-  min-height: 250px;
-}
-.blog_page_content .blog_content p {
-  margin: 15px 0;
-}
-.blog_page_content .blog_box, .blog_page_content .blog_box:hover {
-  border-color: transparent;
-  padding: 10px 0;
-}
+
 /*========================
       Comment Box
 ======================== */
