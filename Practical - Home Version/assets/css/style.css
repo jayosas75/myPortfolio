@@ -585,6 +585,7 @@ a, a:active, a:focus, a:hover,
   transition-delay: .1s;
 }
 .mix-caption::before {
+  background-color: rgba(255,255,255, 0.2);
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: scale(0,1);
@@ -1133,9 +1134,15 @@ a, a:active, a:focus, a:hover,
     font-weight: 500;
 }
 .port-title {
-    color: #3498db;
+    color: black;
     font-size: 2em;
     font-weight: 800;
+}
+
+.port-title-white {
+  color: white;
+  font-size: 2em;
+  font-weight: 800;
 }
 
 .football-button {
